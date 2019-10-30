@@ -9,6 +9,7 @@
     "react-grid-gallery": "^0.5.5",
     "react-owl-carousel": "^2.3.1",
     "react-scripts": "3.2.0",
+    "react-scroll": "^1.7.14",
     "react-typing-animation": "^1.6.2",
     "reactjs-popup": "^1.5.0"
   },

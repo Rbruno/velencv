@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class contacto extends Component {
     render() {
@@ -9,7 +9,7 @@ export default class contacto extends Component {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="contact-contact">
-                                    <h2 className="mb-30">GET IN TOUCH</h2>
+                                    <h2 className="mb-30">Enviame tu consulta!</h2>
                                     <ul className="contact-details">
                                         <li><span>23 Main, Street</span></li>
                                         <li><span>New York, United States</span></li>
@@ -21,7 +21,7 @@ export default class contacto extends Component {
                             <div className="col-lg-6">
                                 <form action method="post" role="form" className="contactForm">
                                     <div className="row">
-                                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                        <div id="sendmessage">Tu mensaje ha sido enviado!, Gracias!</div>
                                         <div id="errormessage" />
                                         <div className="col-lg-6">
                                             <div className="form-group contact-block1">

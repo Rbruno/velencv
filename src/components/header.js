@@ -10,16 +10,15 @@ export default class header extends Component {
                         <h1>Soy 
                         <Typing loop={true} >
                             <span>Valentino Ramella</span>
-                            <Typing.Backspace count={17} />
+                            <Typing.Backspace count={18} />
                             <span>Artista Plastico</span>
-                            <Typing.Backspace count={16} />
+                            <Typing.Backspace count={17} />
                             <Typing.Speed ms={100} />
                             <span>Modelo</span>
                             <Typing.Backspace count={6} />
                             <Typing.Speed ms={100} />
                             <span>Actor</span>
                             <Typing.Backspace count={5} />
-                            <span>Valentino Ramella</span>
                         </Typing></h1>
 
                         <p>Artista Plastico, Actor, Modelo</p>

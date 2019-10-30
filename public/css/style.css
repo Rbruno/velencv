@@ -101,19 +101,19 @@ p {
 }
 
 .btn {
-  background: #333;
-  border: medium none;
-  border-radius: 0;
-  color: #fff;
-  font-size: 12px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
-  text-transform: uppercase;
+  background: #333 !important;
+  border: medium none !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  padding: 0 30px !important;
+  text-transform: uppercase !important;
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #fff !important;
 }
 
 .padDiv {
@@ -188,6 +188,14 @@ nav {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
+.nav-visible {
+  top: 0;
+  transition: top 0.6s;
+}
+.nav-invisible {
+  top: -100px;
+}
+
 .nav-menu {
   float: right;
   line-height: 32px;
@@ -208,13 +216,19 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #999999 !important;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: black !important;
+  text-decoration: underline black !important; 
 }
 
 .logo {
@@ -232,7 +246,8 @@ nav ul li a {
 }
 
 .active {
-  color: #afafaf;
+  color: black !important;
+  text-decoration: underline black !important; 
 }
 
 /*----------------------------------------------------------------------------------*/
