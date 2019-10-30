@@ -8,7 +8,8 @@ export default class navbar extends Component {
         this.state = {
           prevScrollpos: window.pageYOffset,
           visible: true,
-          menu: true
+          menu: true,
+          respon: false
         };
       }
     
@@ -57,37 +58,34 @@ export default class navbar extends Component {
                         <ul className= { this.state.menu ? "nav-menu-visible nav-menu list-unstyled" : "nav-menu-invisible nav-menu list-unstyled"} >
                         
                             <li><Link
-                                    activeClass="active"
+                                    activeClass="actived"
                                     to="header"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {500}
-                                    onClick={this.vermenu}>Home </Link></li>
+                                    duration= {500}>Home </Link></li>
                             <li><Link
-                                    activeClass="active"
+                                    activeClass="actived"
                                     to="about"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
                                     duration= {500}
-                                    onClick={this.vermenu}>Sobre Mi </Link></li>
+                                    className="menu">Sobre Mi </Link></li>
                             <li><Link
-                                    activeClass="active"
+                                    activeClass="actived"
                                     to="portfolio"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {500}
-                                    onClick={this.vermenu}>Portfolio</Link></li>
+                                    duration= {500}>Portfolio</Link></li>
                             <li><Link
-                                    activeClass="active"
+                                    activeClass="actived"
                                     to="contact"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {500}
-                                    onClick={this.vermenu}>Contacto</Link></li>
+                                    duration= {500}>Contacto</Link></li>
                         </ul>
                     </div>
                 </div>

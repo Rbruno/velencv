@@ -253,7 +253,7 @@ nav ul li a:hover {
   font-size: 23px;
 }
 
-.active {
+.actived {
   color: black !important;
   text-decoration: underline black !important; 
 }
