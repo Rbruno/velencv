@@ -19,7 +19,7 @@ export default class contacto extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <form action method="post" role="form" className="contactForm">
+                                <form  method="post" role="form" className="contactForm">
                                     <div className="row">
                                         <div id="sendmessage">Tu mensaje ha sido enviado!, Gracias!</div>
                                         <div id="errormessage" />

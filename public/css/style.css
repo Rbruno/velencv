@@ -196,6 +196,14 @@ nav {
   top: -100px;
 }
 
+.nav-menu-visible{
+  display: block !important;
+}
+
+.nav-menu-invisible{
+  display: none !important;
+}
+
 .nav-menu {
   float: right;
   line-height: 32px;
