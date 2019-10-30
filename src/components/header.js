@@ -15,7 +15,7 @@ export default class header extends Component {
                             <Typing.Backspace count={17} />
                             <Typing.Speed ms={100} />
                             <span>Modelo</span>
-                            <Typing.Backspace count={6} />
+                            <Typing.Backspace count={7} />
                             <Typing.Speed ms={100} />
                             <span>Actor</span>
                             <Typing.Backspace count={5} />
