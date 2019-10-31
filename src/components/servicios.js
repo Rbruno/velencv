@@ -13,37 +13,38 @@ export default class servicios extends Component {
                         className="owl-theme"
                         loop
                         margin={0}
-                        nav
+                        dots={false}
+                        autoplay={true}
                     >
                         <div className="services-block">
                             <i className="ion-paintbrush" />
-                            <span>UI/UX DESIGN</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>Amante del Arte</span>
+                            <p className="separator">Como artista plastico admiro todo tipo de arte, y lo incluyo en mi dia a dia</p>
                         </div>
                         <div className="services-block">
                             <i className="ion-android-color-palette" />
-                            <span>BRAND IDENTITY</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>LA vida a colores</span>
+                            <p className="separator">Vivo la vida en todo su explendor, tan variante y diversa como el espectro completo del color. </p>
                         </div>
                         <div className="services-block">
                             <i className="ion-easel" />
-                            <span>WEB DESIGN</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>Lienzo</span>
+                            <p className="separator">No se me ocurrio que poner aca... </p>
                         </div>
                         <div className="services-block">
                             <i className="ion-ios-paw" />
-                            <span>MOBILE APPS</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>Adorador de las mascotas</span>
+                            <p className="separator">Tengo dos gatos que adoro con mi alma, son mi sonrisa de cada mañana, y mi momento de relax al volver a casa. </p>
                         </div>
                         <div className="services-block">
                             <i className="ion-videocamera" />
-                            <span>Analytics</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>A la Pantalla Grande</span>
+                            <p className="separator">Tuve la suerte de no solo poder desempeñarme como actor en teatro sino tambien en television, y en una de las series del momento. </p>
                         </div>
                         <div className="services-block">
                             <i className="ion-ios-musical-note" />
-                            <span>PHOTOGRAPHY</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                            <span>Musicoterapia</span>
+                            <p className="separator">La musica me transporta a otros lugares, mi imaginacion estalla de emosion con una buena cancion de fondo. </p>
                         </div>
                         </OwlCarousel>
                     </div>
