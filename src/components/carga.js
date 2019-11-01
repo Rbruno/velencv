@@ -62,7 +62,7 @@ export default class carga extends Component {
                     currentImageWillChange={this.onCurrentImageChange}
 
                     customControls={[
-                        <a href={'/delete/'+this.state.currentImage} class="btn btn-danger btn-block">
+                        <a href={'http://localhost:4000/api/carga/delete/'+this.state.currentImage} class="btn btn-danger btn-block">
                             Delete
                         </a>
                     ]}
