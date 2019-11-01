@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Gallery from 'react-grid-gallery';
-import cuadros from '../pinturas.json';
+import axios from 'axios';
 
-const fs = require('fs');
-
-
-const data = cuadros;
-
+let data = {};
 export default class carga extends Component {
+    
+
+    async componentDidMount() {
+       let  datas = await axios.get('http://localhost:4000/api/carga');
+       console.log(datas.data);
+       data = datas.data;
+       this.setState({images : data});
+    }
+
     constructor(props){
         super(props);
 
@@ -36,7 +41,10 @@ export default class carga extends Component {
     }
 
     render () {
+        const entre = this.state.images.length > 0;
         return (
+            <div>
+            {entre ? (
             <div style={{
                 display: "block",
                 minHeight: "1px",
@@ -57,6 +65,8 @@ export default class carga extends Component {
                         <button key="deleteImage" onClick={this.deleteImage}>Delete Image</button>
                     ]}
                 />
+            </div>
+            ) : (<h1>cargando</h1>)}
             </div>
         );
     }

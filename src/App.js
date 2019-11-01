@@ -36,7 +36,7 @@ function App() {
           <Contacto />
           <Footer />
         </Route>
-        <Route path="/carga">
+        <Route path="/api/carga">
           <CargaImagenes />
         </Route>  
       </Switch>
