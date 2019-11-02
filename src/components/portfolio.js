@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Gallery from 'react-grid-gallery';
-import cuadros from '../pinturas.json';
 import axios from 'axios';
 let data = {};
   

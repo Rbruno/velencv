@@ -18,7 +18,7 @@ import Portfolio from './components/portfolio';
 import Contacto from './components/contacto';
 import Footer from './components/footer';
 
-import CargaImagenes from './components/carga';
+import CargaImagenes from './components/Controllers/carga';
 
 
 function App() {

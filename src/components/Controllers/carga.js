@@ -3,13 +3,15 @@ import PropTypes from 'prop-types';
 import Gallery from 'react-grid-gallery';
 import axios from 'axios';
 
+//Components of Controllers
+import Form from './form';
+
 let data = {};
 export default class carga extends Component {
     
 
     async componentDidMount() {
        let  datas = await axios.get('http://localhost:4000/api/carga');
-       console.log(datas.data);
        data = datas.data;
        this.setState({images : data});
     }
@@ -32,43 +34,47 @@ export default class carga extends Component {
 
     deleteImage() {
         if (window.confirm(`estas seguro que queres borrar esta imagen ${this.state.currentImage}?`)) {
-            var images = this.state.images.slice();
-            images.splice(this.state.currentImage, 1)
-            this.setState({
-                images: images
-            });
+            
         }
     }
+
 
     render () {
         const entre = this.state.images.length > 0;
         return (
-            <div>
-            {entre ? (
-            <div style={{
-                display: "block",
-                minHeight: "1px",
-                width: "100%",
-                border: "1px solid #ddd",
-                overflow: "auto"}}>
-                <div style={{
-                     padding: "2px",
-                     color: "#666"
-                    }}>Current image: {this.state.currentImage}</div>
-                <Gallery
-                    images={this.state.images}
-                    enableLightbox={true}
-                    enableImageSelection={false}
-                    currentImageWillChange={this.onCurrentImageChange}
-
-                    customControls={[
-                        <a href={'http://localhost:4000/api/carga/delete/'+this.state.currentImage} class="btn btn-danger btn-block">
-                            Delete
-                        </a>
-                    ]}
-                />
+            <div className="container-fluid " style={{background: '#f7f7f7'}}>
+            <div className="row">
+                <div className="col-md-12">  
+                    <h1 className="text-center shadow p-3 mb-5 bg-white rounded" style={{color: '#117a8b'}}>Panel de Control</h1>
+                </div>
             </div>
-            ) : (<h1>cargando</h1>)}
+            {entre ? (
+            
+            <div className="row">
+                <div className="col-md-3">
+                    <Form />
+                </div>
+                <div className="col-md-9">
+                    <h2 class="text-center">Lista de imagenes</h2>
+                    <Gallery
+                        images={this.state.images}
+                        enableLightbox={true}
+                        enableImageSelection={false}
+                        currentImageWillChange={this.onCurrentImageChange}
+
+                        customControls={[
+                            <a href={'http://localhost:4000/api/carga/delete/'+this.state.currentImage} className="btn btn-danger btn-block">
+                                Delete
+                            </a>
+                        ]}
+                    />
+                </div>
+            </div>
+            ) : (
+                <div className="alert alert-success" role="alert">
+                    Cargando imagenes...
+                </div>
+                )}
             </div>
         );
     }
