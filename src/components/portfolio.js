@@ -5,7 +5,7 @@ let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        let  datas = await axios.get('http://localhost:4000/api/carga');
+        let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga');
         console.log(datas.data);
         data = datas.data;
         this.setState({images : data});
