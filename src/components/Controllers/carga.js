@@ -11,7 +11,7 @@ export default class carga extends Component {
     
 
     async componentDidMount() {
-       let  datas = await axios.get('http://localhost:4000/api/carga');
+       let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga');
        data = datas.data;
        this.setState({images : data});
     }
@@ -63,7 +63,7 @@ export default class carga extends Component {
                         currentImageWillChange={this.onCurrentImageChange}
 
                         customControls={[
-                            <a href={'http://localhost:4000/api/carga/delete/'+this.state.currentImage} className="btn btn-danger btn-block">
+                            <a href={'https://valentino-ramella.herokuapp.com/api/carga/delete/'+this.state.currentImage} className="btn btn-danger btn-block">
                                 Delete
                             </a>
                         ]}
