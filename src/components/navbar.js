@@ -74,18 +74,26 @@ export default class navbar extends Component {
                                     className="menu">Sobre Mi </Link></li>
                             <li><Link
                                     activeClass="actived"
+                                    to="resume"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration= {500}>Mi Experiencia</Link></li>     
+                            <li><Link
+                                    activeClass="actived"
                                     to="portfolio"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
                                     duration= {500}>Portfolio</Link></li>
+                               
                             <li><Link
                                     activeClass="actived"
                                     to="contact"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {500}>Contacto</Link></li>
+                                    duration= {500}>Cuadros</Link></li>
                         </ul>
                     </div>
                 </div>

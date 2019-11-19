@@ -5,7 +5,7 @@ let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga',{headers: {"Access-Control-Allow-Origin": "*"}});
+        let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga_cuadros',{headers: {"Access-Control-Allow-Origin": "*"}});
         console.log(datas.data);
         data = datas.data;
         this.setState({images : data});
@@ -29,7 +29,7 @@ export default class portfolio extends Component {
                     <div id="portfolio" className="text-center paddsection">
                         <div className="container">
                             <div className="section-title text-center">
-                                <h2>Mi Portfolio</h2>
+                                <h2>Cuadros</h2>
                             </div>
                         </div>
                         <div className="container">

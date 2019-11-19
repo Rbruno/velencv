@@ -7,7 +7,7 @@ export default class header extends Component {
             <div id="header" className="home">
                 <div className="container">
                     <div className="header-content">
-                        <h1>Soy 
+                        <h1>
                         <Typing loop={true} >
                             <span>Valentino Ramella</span>
                             <Typing.Backspace count={18} />
@@ -23,8 +23,6 @@ export default class header extends Component {
 
                         <p>Artista Plastico, Actor, Modelo</p>
                         <ul className="list-unstyled list-social">
-                            <li><a href="#"><i className="ion-social-facebook" /></a></li>
-                            <li><a href="#"><i className="ion-social-twitter" /></a></li>
                             <li><a href="https://www.instagram.com/vramella/?hl=es-la"><i className="ion-social-instagram" /></a></li>
                         </ul>
                     </div>

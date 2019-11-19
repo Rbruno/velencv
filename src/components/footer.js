@@ -7,8 +7,6 @@ export default class footer extends Component {
                 <div className="container">
                     <div className="socials-media text-center">
                         <ul className="list-unstyled">
-                            <li><a href="#"><i className="ion-social-facebook" /></a></li>
-                            <li><a href="#"><i className="ion-social-twitter" /></a></li>
                             <li><a href="#"><i className="ion-social-instagram" /></a></li>
                         </ul>
                     </div>

@@ -15,10 +15,11 @@ import About from './components/about';
 import Servicios from './components/servicios';
 import Resumen from './components/resumen';
 import Portfolio from './components/portfolio';
-import Contacto from './components/contacto';
+import Cuadros from './components/cuadros';
 import Footer from './components/footer';
 
 import CargaImagenes from './components/Controllers/carga';
+import Cargacuadros from './components/Controllers/carga_cuadros';
 
 
 function App() {
@@ -32,11 +33,14 @@ function App() {
           <About />
           <Servicios />
           <Resumen />
+          <Cuadros />
           <Portfolio />
-          <Contacto />
           <Footer />
         </Route>
         <Route path="/api/carga">
+          <CargaImagenes />
+        </Route>
+        <Route path="/api/carga_cuadros">
           <CargaImagenes />
         </Route>  
       </Switch>
