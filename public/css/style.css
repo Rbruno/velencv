@@ -61,7 +61,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #170d6E;
   text-decoration: underline;
 }
 
@@ -91,12 +91,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #170d6E;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #170d6E;
   color: #fff;
 }
 
@@ -165,7 +165,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #170d6E;
 }
 
 .mb-30 {
@@ -314,13 +314,13 @@ nav ul li a:hover {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #f1f4ff;
   padding-top: 190px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #170d6e;
 }
 
 #about .div-img-bg .about-img img {
@@ -349,7 +349,7 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: #F1F4FF;
   position: relative;
   padding-bottom: 80px;
 }
@@ -376,7 +376,7 @@ nav ul li a:hover {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #170d6E;
   line-height: 44px;
 }
 
@@ -403,14 +403,30 @@ nav ul li a:hover {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #170d6E;
 }
 
 .owl-nav {
   display: none;
 }
-
-
+/*-----------------------------------------------------------------------------------*/
+/*  reel
+/*-----------------------------------------------------------------------------------*/
+#reel{
+  background: #f1f4ff
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Resume
+/*-----------------------------------------------------------------------------------*/
+#resume{
+  background: #f1f4ff
+}
+/*-----------------------------------------------------------------------------------*/
+/*  cuadros
+/*-----------------------------------------------------------------------------------*/
+#cuadros{
+  background: #f1f4ff
+}
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
@@ -418,6 +434,7 @@ nav ul li a:hover {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  background: #f1f4ff
 }
 
 #portfolio h2{
@@ -454,7 +471,7 @@ nav ul li a:hover {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #170d6E;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -496,7 +513,7 @@ nav ul li a:hover {
 	position: absolute;
 	width: 70px;
 	height: 1px;
-	background-color: #b8a07e;
+	background-color: #170d6E;
 	bottom:70px;
 	right: 643px;
 	content: "";	
@@ -516,14 +533,14 @@ nav ul li a:hover {
 }
 .graduate i{
 	color: #f3f3f3;
-    background: #b8a07e;
+    background: #170d6E;
     padding: 13px 12px;
     font-size: 15px;
 	border-radius: 100%;
 	margin-right: 15px;
 }
 .graduate:hover i{
-	color:#b8a07e;
+	color:#170d6E;
 	background: #f3f3f3;
 }
 .graduate h4{
@@ -534,7 +551,7 @@ nav ul li a:hover {
 	margin-top: 10px;
 }
 .items i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-left: 17px;
 	margin-right: 16px;
 	margin-top: 2px;
@@ -543,7 +560,7 @@ nav ul li a:hover {
     position: relative;	
 }
 .items:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
 }
 .items i:after{
@@ -570,7 +587,7 @@ nav ul li a:hover {
 	margin-left: 40px;
 	font-size: 15px;
 	font-weight: 400;
-	color:#b8a07e;
+	color:#170d6E;
 	margin-bottom: 10px;
 }
 .items p{
@@ -582,7 +599,7 @@ nav ul li a:hover {
 	line-height: 23px;
 }
 .items2 i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -591,7 +608,7 @@ nav ul li a:hover {
     position: relative;	
 }
 .items2:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
 }
 .items2 i:after{
@@ -618,7 +635,7 @@ nav ul li a:hover {
 	margin-left: 40px;
 	font-size: 15px;
 	font-weight: 400;
-	color:#b8a07e;
+	color:#170d6E;
 	margin-bottom: 10px;
 }
 .items2 p{
@@ -635,7 +652,7 @@ nav ul li a:hover {
 }
 .graduate2 i{
 	color: #f3f3f3;
-    background: #b8a07e;
+    background: #170d6E;
     padding: 13px 14px;
     font-size: 15px;
 	border-radius: 100%;
@@ -649,7 +666,7 @@ nav ul li a:hover {
 	margin-top: 10px;
 }
 .graduate2:hover i{
-	color:#b8a07e;
+	color:#170d6E;
 	background: #f3f3f3;
 }
 .graduate3{
@@ -657,7 +674,7 @@ nav ul li a:hover {
 }
 .graduate3 i{
 	color: #f3f3f3;
-    background: #b8a07e;
+    background: #170d6E;
     padding: 13px 12px;
     font-size: 15px;
 	border-radius: 100%;
@@ -665,7 +682,7 @@ nav ul li a:hover {
 	float:left;
 }
 .graduate3:hover i{
-	color:#b8a07e;
+	color:#170d6E;
 	background: #f3f3f3;
 }
 .graduate3 h4{
@@ -684,7 +701,7 @@ nav ul li a:hover {
 	line-height: 23px;
 }
 .items3 i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -693,9 +710,9 @@ nav ul li a:hover {
     position: relative;	
 }
 .items3:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -729,10 +746,10 @@ nav ul li a:hover {
 	margin-top: 12px;
 }
 .progress-bar{
-	background: #b8a07e;
+	background: #170d6E;
 }
 .items4 i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -741,7 +758,7 @@ nav ul li a:hover {
     position: relative;	
 }
 .items4:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
 }
 .items4 i:after {
@@ -763,7 +780,7 @@ nav ul li a:hover {
 	margin-left:165px;
 }
 .items5 i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -772,7 +789,7 @@ nav ul li a:hover {
     position: relative;	
 }
 .items5:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
 }
 .items5 i:after {
@@ -794,7 +811,7 @@ nav ul li a:hover {
 	margin-left:184px;
 }
 .items6 i{
-	color: #b8a07e;
+	color: #170d6E;
 	margin-top: 2px;
 	margin-left: 17px;
 	margin-right: 16px;
@@ -803,7 +820,7 @@ nav ul li a:hover {
     position: relative;	
 }
 .items6:hover i{
-	background:#b8a07e;
+	background:#170d6E;
 	border-radius:100%;
 }
 .items6 i:after {
@@ -885,7 +902,7 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #f1f4ff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -921,7 +938,7 @@ nav ul li a:hover {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #170d6E;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;

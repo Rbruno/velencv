@@ -5,10 +5,16 @@ let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga_cuadros',{headers: {"Access-Control-Allow-Origin": "*"}});
+        const url = './src/components/Controllers/cuadros.php'
+        axios.get(url).then(response => response.data)
+        .then((data) => {
+        this.setState({ images: data })
+        console.log(this.state.images)
+        })
+        /*let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga_cuadros',{headers: {"Access-Control-Allow-Origin": "*"}});
         console.log(datas.data);
         data = datas.data;
-        this.setState({images : data});
+        this.setState({images : data});*/
     }
 
     constructor(props){
@@ -26,7 +32,7 @@ export default class portfolio extends Component {
         return (
             <div>
                 {entre ? (
-                    <div id="portfolio" className="text-center paddsection">
+                    <div id="cuadros" className="text-center paddsection">
                         <div className="container">
                             <div className="section-title text-center">
                                 <h2>Cuadros</h2>
@@ -40,7 +46,9 @@ export default class portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                ) : (<h1>cargando</h1>)}
+                ) : (<div className="alert alert-primary" role="alert">
+                        Cargando Imagenes...
+              </div>)}
             </div>
         )
     }

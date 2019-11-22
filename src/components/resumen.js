@@ -7,13 +7,13 @@ export default class resumen extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h2>Mi Experiencia</h2>
+                            <h2>Experiencia Personal</h2>
                         </div>
                     </div>
                     <div className="row bios">
                         <div className="col-md-6">
                             <div className="graduate d-flex">
-                                <i className="fas fa-graduation-cap" /><h4>EDUCACIÓN</h4>
+                                <i className="fas fa-user" /><h4>MI PERSONA</h4>
                             </div>
                             <div className="items">
                                 <i className="far fa-circle" /><h6>ART &amp; PHOTO EDITING,<span>CAMBRIDGE UNIVERSIRTY</span></h6>
@@ -33,7 +33,7 @@ export default class resumen extends Component {
                         </div>
                         <div className="col-md-6">
                             <div className="graduate2 d-flex">
-                                <i className="fas fa-briefcase" /><h4>Trabajos</h4>
+                                <i className="fas fa-briefcase" /><h4>TRABAJOS</h4>
                             </div>
                             <div className="items">
                                 <i className="far fa-circle" /><h6>MID-LEVEL DESIGNER AT ENVATO MARKET</h6>

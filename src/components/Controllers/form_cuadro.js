@@ -4,7 +4,7 @@ export default class form extends Component {
     render() {
         return (
             
-            <form method="POST" action="https://valentino-ramella.herokuapp.com/api/carga_cuadro" encType="multipart/form-data"  className="text-center position-fixed shadow p-1 mb-5 bg-white rounded" style={{top: '175px', left: '1px'}} >
+            <form method="POST" action="https://valentino-ramella.herokuapp.com/api/carga_cuadros" encType="multipart/form-data"  className="text-center position-fixed shadow p-1 mb-5 bg-white rounded" style={{top: '175px', left: '1px'}} >
                 <p className="h4 mb-4">Agregar Imagen</p>
                 {/* File */}
                 <div className="form-group">

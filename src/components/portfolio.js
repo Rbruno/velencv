@@ -6,7 +6,7 @@ let data = {};
 export default class portfolio extends Component {
     async componentDidMount() {
         let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga',{headers: {"Access-Control-Allow-Origin": "*"}});
-        console.log(datas.data);
+        
         data = datas.data;
         this.setState({images : data});
     }
@@ -40,7 +40,9 @@ export default class portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                ) : (<h1>cargando</h1>)}
+                ) : (<div className="alert alert-primary" role="alert">
+                Cargando Imagenes...
+      </div>)}
             </div>
         )
     }

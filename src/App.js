@@ -17,7 +17,7 @@ import Resumen from './components/resumen';
 import Portfolio from './components/portfolio';
 import Cuadros from './components/cuadros';
 import Footer from './components/footer';
-
+import Reel from './components/reel'
 import CargaImagenes from './components/Controllers/carga';
 import Cargacuadros from './components/Controllers/carga_cuadros';
 
@@ -33,6 +33,7 @@ function App() {
           <About />
           <Servicios />
           <Resumen />
+          <Reel />
           <Cuadros />
           <Portfolio />
           <Footer />

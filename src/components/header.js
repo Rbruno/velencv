@@ -11,17 +11,12 @@ export default class header extends Component {
                         <Typing loop={true} >
                             <span>Valentino Ramella</span>
                             <Typing.Backspace count={18} />
-                            <span>Artista Plastico</span>
+                            <span>Artista visual</span>
                             <Typing.Backspace count={17} />
                             <Typing.Speed ms={100} />
-                            <span>Modelo</span>
-                            <Typing.Backspace count={7} />
-                            <Typing.Speed ms={100} />
-                            <span>Actor</span>
-                            <Typing.Backspace count={5} />
                         </Typing></h1>
 
-                        <p>Artista Plastico, Actor, Modelo</p>
+                        <p>Valenramella88@gmail.com</p>
                         <ul className="list-unstyled list-social">
                             <li><a href="https://www.instagram.com/vramella/?hl=es-la"><i className="ion-social-instagram" /></a></li>
                         </ul>
