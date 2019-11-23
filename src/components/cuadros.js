@@ -5,7 +5,7 @@ let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        const url = './src/components/Controllers/cuadros.php'
+        const url = './Api/cuadros.php'
         axios.get(url).then(response => response.data)
         .then((data) => {
         this.setState({ images: data })
