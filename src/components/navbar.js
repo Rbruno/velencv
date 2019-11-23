@@ -81,6 +81,13 @@ export default class navbar extends Component {
                                     duration= {500}>Mi Experiencia</Link></li>     
                             <li><Link
                                     activeClass="actived"
+                                    to="reel"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration= {500}>REEL</Link></li>     
+                            <li><Link
+                                    activeClass="actived"
                                     to="portfolio"
                                     spy={true}
                                     smooth={true}
