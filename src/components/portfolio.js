@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Gallery from 'react-grid-gallery';
-import axios from 'axios';
+//import axios from 'axios';
+import fotos from './Api/fotos.json';
 let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga',{headers: {"Access-Control-Allow-Origin": "*"}});
+        //let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga',{headers: {"Access-Control-Allow-Origin": "*"}});
         
-        data = datas.data;
+        data = fotos;
         this.setState({images : data});
     }
 

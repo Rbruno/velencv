@@ -18,8 +18,8 @@ import Portfolio from './components/portfolio';
 import Cuadros from './components/cuadros';
 import Footer from './components/footer';
 import Reel from './components/reel'
-import CargaImagenes from './components/Controllers/carga';
-import Cargacuadros from './components/Controllers/carga_cuadros';
+//import CargaImagenes from './components/Controllers/carga';
+//import Cargacuadros from './components/Controllers/carga_cuadros';
 
 
 function App() {
@@ -34,16 +34,10 @@ function App() {
           <Servicios />
           <Resumen />
           <Reel />
-          <Cuadros />
           <Portfolio />
+          <Cuadros />
           <Footer />
         </Route>
-        <Route path="/api/carga">
-          <CargaImagenes />
-        </Route>
-        <Route path="/api/carga_cuadros">
-          <CargaImagenes />
-        </Route>  
       </Switch>
       </Router>
     </div>

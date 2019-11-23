@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 import Gallery from 'react-grid-gallery';
-import axios from 'axios';
+//import axios from 'axios';
+import cuadros from './Api/cuadros.json';
 let data = {};
   
 export default class portfolio extends Component {
     async componentDidMount() {
-        const url = './Api/cuadros.php'
-        axios.get(url).then(response => response.data)
-        .then((data) => {
+        data = cuadros;
         this.setState({ images: data })
         console.log(this.state.images)
-        })
-        /*let  datas = await axios.get('https://valentino-ramella.herokuapp.com/api/carga_cuadros',{headers: {"Access-Control-Allow-Origin": "*"}});
-        console.log(datas.data);
-        data = datas.data;
-        this.setState({images : data});*/
     }
 
     constructor(props){

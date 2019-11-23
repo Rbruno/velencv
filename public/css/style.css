@@ -412,9 +412,72 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 /*  reel
 /*-----------------------------------------------------------------------------------*/
-#reel{
+
+#reel {
+  position: relative;
+  padding-bottom: 50px;
   background: #f1f4ff
 }
+
+#reel h2{
+  font-size: 48px;
+	font-weight: 700;
+	color:#3b3b3b;
+}
+
+#reel .reel-list {
+  margin-bottom: 50px;
+}
+
+#reel .reel-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#reel .reel-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#reel .reel-list .nav li:hover, #reel .reel-list .nav li.filter-active  {
+  color: #170d6E;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#reel .reel-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.reel-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.reel-thumbnail img {
+  max-width: 100%;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Resume
 /*-----------------------------------------------------------------------------------*/
@@ -424,9 +487,71 @@ nav ul li a:hover {
 /*-----------------------------------------------------------------------------------*/
 /*  cuadros
 /*-----------------------------------------------------------------------------------*/
-#cuadros{
+
+#cuadros {
+  position: relative;
+  padding-bottom: 50px;
   background: #f1f4ff
 }
+
+#cuadros h2{
+  font-size: 48px;
+	font-weight: 700;
+	color:#3b3b3b;
+}
+
+#cuadros .cuadros-list {
+  margin-bottom: 50px;
+}
+
+#cuadros .cuadros-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#cuadros .cuadros-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#cuadros .cuadros-list .nav li:hover, #cuadros .cuadros-list .nav li.filter-active  {
+  color: #170d6E;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#cuadros .cuadros-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.cuadros-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.cuadros-thumbnail img {
+  max-width: 100%;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
