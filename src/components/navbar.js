@@ -85,7 +85,7 @@ export default class navbar extends Component {
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {500}>REEL</Link></li>     
+                                    duration= {500}>Reel</Link></li>     
                             <li><Link
                                     activeClass="actived"
                                     to="portfolio"
