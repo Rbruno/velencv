@@ -5,7 +5,7 @@
         "thumbnail": "../../images/portfolio/1.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
-        "caption": "After Rain (Jeshu John - designerspics.com)"
+        "caption": "Serie 'el Marginal' Netflix 2019"
     },
     {
         "id": 1,
@@ -13,75 +13,63 @@
         "thumbnail": "../../images/portfolio/2.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
-        "caption": "Boats (Jeshu John - designerspics.com)"
+        "caption": "Serie 'el Marginal' Netflix 2019"
     },
     {
         "id": 3,
+        "src": "../../images/portfolio/3.jpg",
+        "thumbnail": "../../images/portfolio/3.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212
+    },
+    {
+        "id": 4,
         "src": "../../images/portfolio/4.jpg",
         "thumbnail": "../../images/portfolio/4.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
-        "id": 4,
+        "id": 5,
         "src": "../../images/portfolio/5.jpg",
         "thumbnail": "../../images/portfolio/5.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
-        "id": 5,
+        "id": 6,
         "src": "../../images/portfolio/6.jpg",
         "thumbnail": "../../images/portfolio/6.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
-        "id": 6,
+        "id": 7,
         "src": "../../images/portfolio/7.jpg",
         "thumbnail": "../../images/portfolio/7.jpg",
         "thumbnailWidth": 320,
-        "thumbnailHeight": 212
+        "thumbnailHeight": 212,
+        "caption": "Serie 'el Marginal' Netflix 2019"
     },
     {
         "id": 8,
+        "src": "../../images/portfolio/8.png",
+        "thumbnail": "../../images/portfolio/8.png",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "Serie 'el Marginal' Netflix 2019"
+    },
+    {
+        "id": 9,
         "src": "../../images/portfolio/9.jpg",
         "thumbnail": "../../images/portfolio/9.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
-        "id": 14,
-        "src": "../../images/portfolio/15.jpg",
-        "thumbnail": "../../images/portfolio/15.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 17,
-        "src": "../../images/portfolio/18.jpg",
-        "thumbnail": "../../images/portfolio/18.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 18,
-        "src": "../../images/portfolio/19.jpg",
-        "thumbnail": "../../images/portfolio/19.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 19,
-        "src": "../../images/portfolio/20.jpg",
-        "thumbnail": "../../images/portfolio/20.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 20,
-        "src": "../../images/portfolio/21.jpg",
-        "thumbnail": "../../images/portfolio/21.jpg",
+        "id": 10,
+        "src": "../../images/portfolio/10.jpg",
+        "thumbnail": "../../images/portfolio/10.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     }

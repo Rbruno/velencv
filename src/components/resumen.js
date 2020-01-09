@@ -6,55 +6,157 @@ export default class resumen extends Component {
             <section id="resume">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
-                            <h2>Experiencia Personal</h2>
-                        </div>
-                    </div>
-                    <div className="row bios">
                         <div className="col-md-6">
-                            <div className="graduate d-flex">
-                                <i className="fas fa-user" /><h4>MI PERSONA</h4>
-                            </div>
-                            <div className="items">
-                                <i className="far fa-circle" /><h6>ART &amp; PHOTO EDITING,<span>CAMBRIDGE UNIVERSIRTY</span></h6>
-                                <span>September 2009 - June 2012</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                            </div>
-                            <div className="items2">
-                                <i className="far fa-circle" /><h6>WEB DESIGN TECHNIQUES,<span>ISTA BEN MSIK TRAINING CENTER</span></h6>
-                                <span>September 2007 - June 2009</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                            </div>
-                            <div className="items2">
-                                <i className="far fa-circle" /><h6>BACCALAUREATE: EXPERIMENTAL SCIENCES,<span>MLY ISMAIL HIGH SCHOOL</span></h6>
-                                <span>September 2003 - June 2006</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                            <div class="block-content mb-100 pb-30">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                    <div class="sub-title mb-40">
+                                            <h2 class="uppercase">MI PERSONA</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-3  col-sm-8 col-sm-offset-3 ">
+                                        <div class="listing mt-40">
+                                            <div class="listing-inner">
+                                                <div class="listing-event">
+                                                    <ul class="data left">
+                                                        <li class="emph-1">Nombre</li>
+                                                        <li class="emph-1">Nacimiento</li>
+                                                        <li class="emph-1">Nacionalidad</li>
+                                                        <li class="emph-1">Estado Civil</li>
+                                                        <li class="emph-1">Telefono</li>
+                                                    </ul>
+
+                                                    <ul class="data right">
+                                                        <li>Valentino Martín Ramella</li>
+                                                        <li>03/05/1988</li>
+                                                        <li>Argentina</li>
+                                                        <li>Soltero</li>
+                                                        <li>(011) 1553113601</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="graduate2 d-flex">
-                                <i className="fas fa-briefcase" /><h4>TRABAJOS</h4>
-                            </div>
-                            <div className="items">
-                                <i className="far fa-circle" /><h6>MID-LEVEL DESIGNER AT ENVATO MARKET</h6>
-                                <span>June 2016 - Up to now</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                            </div>
-                            <div className="items2">
-                                <i className="far fa-circle" /><h6>WEB DESIGNER &amp; DEVELOPER AT GOOGLE</h6>
-                                <span>February 2015 - May 2016</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                            </div>
-                            <div className="items2">
-                                <i className="far fa-circle" /><h6>FRONT-END DESIGNER AT PIXEL TOUCH</h6>
-                                <span>May 2013 - January 2015</span>
-                                <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                            <div class="block-content mb-100  pb-10">
+                                <div class="row">
+                                    <div class="col-md-12  ">
+                                        <div class="sub-title mb-40">
+                                            <h2 class="uppercase">MI EDUCACIÓN</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12  ">
+                                <div class="timeline">
+                                    <div class="timeline-inner">
+                                        <div class="name">
+                                            <h4>Colegio de Lasalle  </h4>
+                                        </div>
+                                        <div class="detail">
+                                            <p>Secundario Completo</p>
+                                        </div>
+                                    </div>
+                                <div class="timeline-inner ">
+                                    <div class="name switched">
+                                        <h4>Circo SOQ -http://www.circosoq.com.ar/</h4>
+                                        
+                                    </div>
+                                    <div class="detail">
+                                        <p>Integral de circo (Acrobacias aéreas, de piso y combinadas)  </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner">
+                                    <div class="name">
+                                        <h4>IUNA de Arte Dramático (Sede French) catedra Flores </h4>
+                                    </div>
+                                    <div class="detail">
+                                        <p>Carrera de Actuación (1 año de la carrera)</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner ">
+                                    <div class="name switched">
+                                        <h4>Centro Cultural Rojas </h4>
+                                        
+                                    </div>
+                                    <div class="detail">
+                                        <p>Clases de Actuación - Profesora Nora Kaleka  </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner">
+                                    <div class="name">
+                                        <h4>Lorena Vega </h4>
+                                    </div>
+                                    <div class="detail">
+                                        <p>Seminario de actuación</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner ">
+                                    <div class="name switched">
+                                        <h4>"La Arena"</h4>
+                                        
+                                    </div>
+                                    <div class="detail">
+                                        <p>Intensivo de Acrobacia de dúo - Profesor Fernando Rosen</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner">
+                                    <div class="name">
+                                        <h4>Circodromo </h4>
+                                    </div>
+                                    <div class="detail">
+                                        <p>Ramka - profesor Facundo Salazar</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner ">
+                                    <div class="name switched">
+                                        <h4>Circo Soq (GEBA)</h4>
+                                        
+                                    </div>
+                                    <div class="detail">
+                                        <p>Curso de Trapecio Avanzado - Profesor Gabriel Aggazi</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner">
+                                    <div class="name">
+                                        <h4>Circo Criollo </h4>
+                                    </div>
+                                    <div class="detail">
+                                        <p>Preparación Profesional de Trapecio fijo - profesor Dario Ayala</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner ">
+                                    <div class="name switched">
+                                        <h4>Circo Soq (GEBA)</h4>
+                                        
+                                    </div>
+                                    <div class="detail">
+                                        <p>Curso pedagogico tecnico-practico en telas niveles 1 y 2, - Profesor Mariano Rabade</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-inner">
+                                    <div class="name">
+                                        <h4>Centro Cultural Rojas </h4>
+                                    </div>
+                                    <div class="detail">
+                                        <p>Curso de Expresion y creacion fisica - Profesor Juan Onofri Barbato</p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>  
                 </div>
-            </section>
+            </div>    
+        </div>
+    </div>
+</section>
 
         )
     }

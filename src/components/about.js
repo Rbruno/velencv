@@ -15,7 +15,8 @@ export default class about extends Component {
                         </div>
                         <div className="col-lg-7">
                             <div className="about-descr">
-                                <p className="p-heading">im a ux /ui designer austin based who loves clean, simple &amp; unique design. i also enjoy crafting brand identities, icons, &amp; ilustration work. </p>
+                                <p className="p-heading">
+                                    Artista autodidacta. A través de los años las aspiraciones y propuestas se orientan hacia lo plástico y dramático. Y siempre en búsqueda del crecimiento profesional.</p>
                                 <p className="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
                             </div>
                         </div>

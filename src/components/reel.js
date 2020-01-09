@@ -19,8 +19,8 @@ export default class reel extends Component {
                             <div className="col-md-12">
                             <Player
                                 playsInline
-                                poster="../../public/images/corre1.jpg"
-                                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                                poster="images/corre1.jpg"
+                                src="images/reel.mp4"
                             />
                             </div>
                         </div>

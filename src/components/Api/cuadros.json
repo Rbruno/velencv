@@ -1,96 +1,102 @@
 [
-    {
-        "id": 0,
-        "src": "../../images/portfolio/1.jpg",
-        "thumbnail": "../../images/portfolio/1.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": "After Rain (Jeshu John - designerspics.com)"
-    },
-    {
-        "id": 1,
-        "src": "../../images/portfolio/2.jpg",
-        "thumbnail": "../../images/portfolio/2.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": "Boats (Jeshu John - designerspics.com)"
-    },
-    {
-        "id": 3,
-        "src": "../../images/portfolio/4.jpg",
-        "thumbnail": "../../images/portfolio/4.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 4,
-        "src": "../../images/portfolio/5.jpg",
-        "thumbnail": "../../images/portfolio/5.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 5,
-        "src": "../../images/portfolio/6.jpg",
-        "thumbnail": "../../images/portfolio/6.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
-    {
-        "id": 6,
-        "src": "../../images/portfolio/7.jpg",
-        "thumbnail": "../../images/portfolio/7.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212
-    },
+    
     {
         "id": 8,
-        "src": "../../images/portfolio/9.jpg",
-        "thumbnail": "../../images/portfolio/9.jpg",
+        "src": "../../images/cuadros/9.jpg",
+        "thumbnail": "../../images/cuadros/9.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
         "id": 14,
-        "src": "../../images/portfolio/15.jpg",
-        "thumbnail": "../../images/portfolio/15.jpg",
+        "src": "../../images/cuadros/15.jpg",
+        "thumbnail": "../../images/cuadros/15.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
         "id": 17,
-        "src": "../../images/portfolio/18.jpg",
-        "thumbnail": "../../images/portfolio/18.jpg",
+        "src": "../../images/cuadros/18.jpg",
+        "thumbnail": "../../images/cuadros/18.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
         "id": 18,
-        "src": "../../images/portfolio/19.jpg",
-        "thumbnail": "../../images/portfolio/19.jpg",
+        "src": "../../images/cuadros/19.jpg",
+        "thumbnail": "../../images/cuadros/19.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
         "id": 19,
-        "src": "../../images/portfolio/20.jpg",
-        "thumbnail": "../../images/portfolio/20.jpg",
+        "src": "../../images/cuadros/20.jpg",
+        "thumbnail": "../../images/cuadros/20.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
         "id": 20,
-        "src": "../../images/portfolio/21.jpg",
-        "thumbnail": "../../images/portfolio/21.jpg",
+        "src": "../../images/cuadros/21.jpg",
+        "thumbnail": "../../images/cuadros/21.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212
     },
     {
-        "id": 13,
-        "src": "https://valentino-ramella.herokuapp.com/files/36954_pokemon.jpg",
-        "thumbnail": "https://valentino-ramella.herokuapp.com/files/36954_pokemon.jpg",
+        "id": 22,
+        "src": "../../images/cuadros/22.jpg",
+        "thumbnail": "../../images/cuadros/22.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
-        "caption": "hunter"
+        "caption": ""
+    },
+    {
+        "id": 24,
+        "src": "../../images/cuadros/24.jpg",
+        "thumbnail": "../../images/cuadros/24.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": ""
+    }
+    ,
+    {
+        "id": 25,
+        "src": "../../images/cuadros/25.jpg",
+        "thumbnail": "../../images/cuadros/25.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": ""
+    },
+    {
+        "id": 26,
+        "src": "../../images/cuadros/26.jpg",
+        "thumbnail": "../../images/cuadros/26.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Big Bang” - 50 x 70 - técnica mixta (backlight) - 2019 -instalación luminosa"
+    },
+    {
+        "id": 28,
+        "src": "../../images/cuadros/27.jpg",
+        "thumbnail": "../../images/cuadros/27.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Mujer acostada” - 40 x 60 - acrílico sobre cartón entelado - 2017"
+    },
+    {
+        "id": 28,
+        "src": "../../images/cuadros/28.jpg",
+        "thumbnail": "../../images/cuadros/28.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Eccehomo” - 50 x 70 - técnica mixta sobre madera  - 2018 "
+    },
+    {
+        "id": 29,
+        "src": "../../images/cuadros/29.jpg",
+        "thumbnail": "../../images/cuadros/29.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
     }
 ]
