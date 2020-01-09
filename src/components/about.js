@@ -17,7 +17,7 @@ export default class about extends Component {
                             <div className="about-descr">
                                 <p className="p-heading">
                                     Artista autodidacta. A través de los años las aspiraciones y propuestas se orientan hacia lo plástico y dramático. Y siempre en búsqueda del crecimiento profesional.</p>
-                                <p className="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+                                <p className="separator">Como actor se ha desempeñado tanto en la television como en teatro. Sus aspiraciones a seguir creciendo como artista lo llevan a emplear nuevos y mayores retos.</p>
                             </div>
                         </div>
                     </div>
