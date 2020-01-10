@@ -15,6 +15,12 @@ export default class navbar extends Component {
     
       // Adds an event listener when the component is mount.
       componentDidMount() {
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          this.setState(state => ({
+            menu: !this.state.menu
+          }));
+        }else{
+        }
         window.addEventListener("scroll", this.handleScroll);
       }
     
@@ -37,7 +43,7 @@ export default class navbar extends Component {
       };
 
       vermenu = () =>{
-        console.log("entre "+this.state.menu);
+        
         this.setState(state => ({
            menu: !this.state.menu
          }));
