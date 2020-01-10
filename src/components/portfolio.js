@@ -30,7 +30,7 @@ export default class portfolio extends Component {
                     <div id="portfolio" className="text-center paddsection">
                         <div className="container">
                             <div className="section-title text-center">
-                                <h2>Mi Portfolio</h2>
+                                <h2>Portfolio</h2>
                             </div>
                         </div>
                         <div className="container">

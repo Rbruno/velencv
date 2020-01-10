@@ -11,7 +11,7 @@ export default class resumen extends Component {
                                 <div class="row">
                                     <div class="col-md-12">
                                     <div class="sub-title mb-40">
-                                            <h2 class="uppercase">MI PERSONA</h2>
+                                            <h2 class="uppercase">DATOS PERSONALES</h2>
                                         </div>
                                     </div>
                                 </div>

@@ -49,14 +49,6 @@
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
         "caption": ""
-    },
-    {
-        "id": 14,
-        "src": "../../images/cuadros/14.jpg",
-        "thumbnail": "../../images/cuadros/14.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": ""
     }
     ,
     {
@@ -71,30 +63,6 @@
         "id": 16,
         "src": "../../images/cuadros/16.jpg",
         "thumbnail": "../../images/cuadros/16.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": ""
-    },
-    {
-        "id": 17,
-        "src": "../../images/cuadros/17.jpg",
-        "thumbnail": "../../images/cuadros/17.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": ""
-    },
-    {
-        "id": 18,
-        "src": "../../images/cuadros/18.jpg",
-        "thumbnail": "../../images/cuadros/18.jpg",
-        "thumbnailWidth": 320,
-        "thumbnailHeight": 212,
-        "caption": ""
-    },
-    {
-        "id": 19,
-        "src": "../../images/cuadros/19.jpg",
-        "thumbnail": "../../images/cuadros/19.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
         "caption": ""
@@ -167,6 +135,77 @@
         "id": 29,
         "src": "../../images/cuadros/29.jpg",
         "thumbnail": "../../images/cuadros/29.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    },
+    {
+        "id": 30,
+        "src": "../../images/cuadros/30.jpg",
+        "thumbnail": "../../images/cuadros/30.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 31,
+        "src": "../../images/cuadros/31.jpg",
+        "thumbnail": "../../images/cuadros/31.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 32,
+        "src": "../../images/cuadros/32.jpg",
+        "thumbnail": "../../images/cuadros/32.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 33,
+        "src": "../../images/cuadros/33.jpg",
+        "thumbnail": "../../images/cuadros/33.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 34,
+        "src": "../../images/cuadros/34.jpg",
+        "thumbnail": "../../images/cuadros/34.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 35,
+        "src": "../../images/cuadros/35.jpg",
+        "thumbnail": "../../images/cuadros/35.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 36,
+        "src": "../../images/cuadros/36.jpg",
+        "thumbnail": "../../images/cuadros/36.jpg",
+        "thumbnailWidth": 320,
+        "thumbnailHeight": 212,
+        "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
+    }
+    ,
+    {
+        "id": 37,
+        "src": "../../images/cuadros/37.jpg",
+        "thumbnail": "../../images/cuadros/37.jpg",
         "thumbnailWidth": 320,
         "thumbnailHeight": 212,
         "caption": "“Virgen del bosque” - rotulador sobre cartón entelado - 40 x 60 - 2016 "
