@@ -484,6 +484,15 @@ nav ul li a:hover {
 #resume{
   background: #f1f4ff
 }
+
+.listas{
+  background-color: #f1f4ff !important;
+  font: 19px bolder !important;
+}
+
+.listas:hover{
+  background-color: #929de324 !important;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  cuadros
 /*-----------------------------------------------------------------------------------*/
