@@ -320,7 +320,7 @@ nav ul li a:hover {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #170d6e;
+  border: 20px solid #0809093d;  /*color viejo #170d6e */
 }
 
 #about .div-img-bg .about-img img {
@@ -488,6 +488,7 @@ nav ul li a:hover {
 .listas{
   background-color: #f1f4ff !important;
   font: 19px bolder !important;
+  text-align: center;
 }
 
 .listas:hover{

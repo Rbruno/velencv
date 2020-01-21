@@ -16,7 +16,6 @@ export default class header extends Component {
                             <Typing.Speed ms={100} />
                         </Typing></h1>
 
-                        <p>Valenramella88@gmail.com</p>
                         <ul className="list-unstyled list-social">
                             <li><a href="https://www.instagram.com/vramella/?hl=es-la"><i className="ion-social-instagram" /></a></li>
                         </ul>

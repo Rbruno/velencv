@@ -16,8 +16,9 @@ export default class about extends Component {
                         <div className="col-lg-7">
                             <div className="about-descr">
                                 <p className="p-heading">
-                                    Artista autodidacta. A través de los años las aspiraciones y propuestas se orientan hacia lo plástico y dramático. Y siempre en búsqueda del crecimiento profesional.</p>
-                                <p className="separator">Como actor se ha desempeñado tanto en la television como en teatro. Sus aspiraciones a seguir creciendo como artista lo llevan a emplear nuevos y mayores retos.</p>
+                                    Artista autodidacta. </p>
+                                <p className="p-heading">A través de los años las aspiraciones y propuestas se orientan hacia lo plástico y dramático, siempre en búsqueda del crecimiento profesional.</p>
+                                <p className="p-heading">Como actor se ha desempeñado tanto en television como en teatro. Sus aspiraciones a seguir creciendo como artista lo llevan a emplear nuevos y mayores retos.</p>
                             </div>
                         </div>
                     </div>
